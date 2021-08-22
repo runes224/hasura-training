@@ -1,0 +1,11 @@
+- name: allowed-queries
+  definition:
+    queries:
+    - name: ユーザ一覧
+      query: |-
+        query MyQuery {
+          users {
+            id
+            name
+          }
+        }

@@ -1,0 +1,9 @@
+- definition:
+    query:
+      collection_name: allowed-queries
+      query_name: ユーザ一覧
+  url: users
+  methods:
+  - GET
+  name: ユーザ一覧
+  comment: null
